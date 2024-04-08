@@ -6,7 +6,7 @@ name: nginx
 image:
   repository: nginx
   pullPolicy: IfNotPresent
-  tag: "1.21.3"
+  tag: "nginx:stable-alpine3.17"
 
 service:
   type: LoadBalancer

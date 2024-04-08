@@ -1,7 +1,7 @@
 helmCharts:
   - name: nginx-chart
     version: 0.1.0
-    repo: https://github.com/kwonheewoon/ArgoCD/nginx-chart
+    repo: https://github.com/kwonheewoon/ArgoCD
     namespace: nginx
     releaseName: nginx
     valuesFile: values.yaml

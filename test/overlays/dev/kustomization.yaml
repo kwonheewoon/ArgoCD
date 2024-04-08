@@ -1,0 +1,6 @@
+resources:
+  - ../../base
+
+patchesStrategicMerge:
+  - replica_count.yaml
+  - image_tag.yaml

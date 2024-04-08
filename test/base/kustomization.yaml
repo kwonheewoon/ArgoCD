@@ -1,0 +1,6 @@
+helmCharts:
+  - name: nginx-chart
+    version: 0.1.0
+    repo: file://../nginx-chart
+    releaseName: nginx
+    valuesFile: values.yaml

@@ -10,8 +10,10 @@ spec:
   source:
     repoURL: 'https://github.com/kwonheewoon/ArgoCD.git'
     targetRevision: HEAD
-    path: test/base
-    kustomize: {}
+    path: test/nginx-chart
+    helm:
+      valueFiles:
+        - values.yaml
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: nginx
